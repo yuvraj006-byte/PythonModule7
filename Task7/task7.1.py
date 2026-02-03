@@ -1,4 +1,4 @@
-seasons = ["winter", "spring", "summer", "autumn"]
+seasons = ("winter", "spring", "summer", "autumn")
 
 months = int(input("Enter the number a month (1,12): "))
 

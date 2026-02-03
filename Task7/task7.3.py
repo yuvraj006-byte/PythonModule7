@@ -16,7 +16,7 @@ def airport_info():
 
             if airport_code_info in airports:
                 if airport_code_info in airports and airports[airport_code_info] == airport_name_info:
-                   print(f"{airport_name_info} exists in our database already!")
+                   print(f"{airport_name_info} already exists in our database!")
                    print()
                 else:
                    print(f"{airport_code_info} exists but with a different name!")
